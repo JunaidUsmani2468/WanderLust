@@ -1,0 +1,363 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+button {
+  font-weight: 500;
+}
+
+/* WanderLust Logo */
+.wanderlust {
+    color:#fe424d;
+    transform: scale(.9);
+    margin: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.compass-needle {
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover .compass-needle {
+    animation: crazyCompass 6s infinite;
+}
+
+@keyframes crazyCompass {
+    0%   { transform: rotate(0deg); }
+    15%  { transform: rotate(270deg); }
+    25%  { transform: rotate(90deg); }
+    50%  { transform: rotate(1080deg); }
+    75%  { transform: rotate(90deg); }
+    85%  { transform: rotate(270deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.map-pin-u {
+    transition: transform 5s ease;
+}
+
+.navbar-brand:hover .map-pin-u {
+    animation: bounce .4s infinite alternate;
+}
+
+@keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-4px); }
+}
+
+/* navbar */
+
+.navbar {
+    padding: 1.2rem .7rem;
+    /* padding-bottom: 1.2rem; */
+    /* height: 5rem; */
+    background-color: white;
+}
+
+.nav-link {
+    color: #222222;
+    transition: transform .3s ease;
+}
+
+.nav-link:hover {
+    color: #222222;
+    transform: scale(1.07);
+}
+
+/* user menu */
+.sign-up-user {
+    color: #222222;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.sign-up-ham {
+    color: #222222;
+    font-size: 1.4rem;
+}
+
+.sign-up-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.sign-up-box {
+    border-radius: 15px;
+}
+
+.sign-up-btn:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    cursor: pointer;
+}
+
+/* Search bar */
+.search-btn {
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.search-btn:hover {
+    background-color: #fe424d;
+    color: #fff;
+}
+
+.search-inp {
+    border-radius: 15px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info {
+    background-color: #ebebeb;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-info div {
+    margin: .2rem;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+}
+
+/* Cards */
+.listing-card {
+    border: none;
+    /* margin: 2rem; */
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-img-top {
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    height: 17rem;
+}
+
+.s-img{
+    border-radius: .4rem;
+    height: 25rem;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.card-img-overlay b {
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+/* New Form */
+.form-label {
+    margin-bottom: 0;
+}
+
+/* Review Stars */
+.fa-star{
+    color: #ffca08;
+}
+
+.fa-regular.fa-star {
+    color: #cfcfcf; 
+}
+
+.rating-star.fa-regular:hover {
+    color: #ffca08;
+}
+
+.fa-regular.black-star {
+    color: gray;
+}
+
+/* review text */
+.review-text {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+}
+
+.review-text::-webkit-scrollbar {
+    display: none;
+}
+
+.img-box {
+    height: 10rem;
+    width: 20rem;
+    object-fit: cover;
+}
+
+/* map */
+#map {
+    height: 25rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* filter */
+
+.filter {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    gap: 1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.filter::-webkit-scrollbar {
+    display: none;
+}
+
+.filters {
+    width: 7rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.filters:hover {
+    opacity: 1;
+    border-bottom: 2px solid #ddd;
+}
+
+.filters p{
+    font-size: .7rem;
+    margin: 0;
+}
+
+.active-filter {
+    opacity: 1;
+    border-bottom: 1.5px solid black !important;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.tax-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.gst {
+    display: none;
+}
+
+/* Select-None */
+i,
+.wanderlust,
+.nav-link,
+.filter,
+.tax-toggle {
+    user-select: none;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+    
+    .compass-needle {
+        animation: crazyCompass 6s 1 alternate; 
+    }
+
+    .map-pin-u {
+        animation: bounce .4s 16 alternate;
+    }
+
+    .s-img {
+        height: 20rem;
+    }
+
+    #map {
+        height: 22rem;
+    }
+
+    .search-inp {
+        padding: 0;
+    }
+}
+
+
+@media (min-width: 768px) { 
+  .search-bar-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; 
+  }
+}
