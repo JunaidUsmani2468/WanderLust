@@ -16,6 +16,7 @@ const LocalStrategy = require('passport-local');
 const User = require('./models/user.js');
 const categories = require("./utils/category.js");
 
+const indexRouter = require('./routes/index.js');
 const listingRouter = require('./routes/listing.js');
 const reviewRouter = require('./routes/review.js');
 const userRouter = require('./routes/user.js');
@@ -56,15 +57,6 @@ const sessionOptions = {
     }
 }
 
-app.get('/', (req, res) => {
-    res.send(
-        `
-            <h3>server is working</h3>
-            <h1>Go to <a href="/listings">All Listings</a></h1>
-        `
-    );
-});
-
 app.use(session(sessionOptions));
 app.use(flash());
 
@@ -87,6 +79,9 @@ app.use((req, res, next) => {
 
     next();
 });
+
+// HOME:
+app.use('/', indexRouter);
 
 // LISTING:
 app.use('/listings', listingRouter);
