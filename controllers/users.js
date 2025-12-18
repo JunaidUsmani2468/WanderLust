@@ -52,6 +52,6 @@ module.exports.logOut = (req, res, next) => {
         }
 
         req.flash('success', 'You have signed out safely. Safe travels!');
-        res.redirect('/listings');
+        res.redirect('/');
     });
 }

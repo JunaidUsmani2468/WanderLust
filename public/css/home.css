@@ -40,29 +40,32 @@
     color: white;
 }
 
+/* Feature Cards */
 .features {
     margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 .feature-card {
     border: none;
     border-radius: 20px;
-    padding: 2rem;
-    height: 100%;
-    transition: all 0.4s ease;
+    border: 3px solid #8f8f8f;
     background-color: #f8f9fa;
+    padding: 2rem;
+    margin: .5rem;
+    height: 90%;
+    transition: all 0.4s ease;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.08); */
 }
 
 #card-2 {
-    transform: scale(1.02);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12); 
-    z-index: 2; 
+    transform:  translateY(-10px) scale(1.05);
+    /* box-shadow: 0 8px 20px rgba(0,0,0,0.12); */
+    border: 3px solid #ff9097;
     background-color: #fff0f1;
 }
 
@@ -74,15 +77,16 @@
 
 .feature-card:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
     color: white;
-    border-color: transparent;
     background-size: cover;
     background-position: center;
 }
 
 #card-2:hover {
-    transform: translateY(-10px) scale(1.05);
+    transform: translateY(-15px) scale(1.08);
+    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
+    border: 3px solid #8f8f8f;
 }
 
 .feature-card:hover .feature-icon {
@@ -101,12 +105,169 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/card-3.avif');
 }
 
+/* --- Split Card Sketch Styles --- */
+.split-card {
+    position: relative;
+    height: 450px;
+    border-radius: 20px 0 20px 0;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.split-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.card-top {
+    border: 3px solid #8f8f8f;
+    border-radius: 20px 0 20px 0;
+    background-color: #f8f9fa;
+    color: #333;
+    clip-path: polygon(0 0, 98% 0, 0 98%);
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-top:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/card-4.avif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.card-top:hover h3 {
+    color: #fe424d;
+}
+
+.card-top-cover {
+    background-color: #8f8f8f;
+    border-radius: 20px 0 0 0;
+    clip-path: polygon(0 0, 99% 0%, 0 99%);
+}
+
+.card-top-cover:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 10;
+}
+
+.top-text {
+    max-width: 60%;
+}
+
+.card-bottom {
+    border: 3px solid #ff9097;
+    border-radius: 20px 0 20px 0;
+    background-color: #fff0f1;
+    color: black;
+    clip-path: polygon(2% 100%, 100% 100%, 100% 2%);
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.card-bottom:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/card-5.avif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.card-bottom:hover h3 {
+    color: #fe424d;
+}
+
+.card-bottom-cover {
+    border-radius: 0 0 20px 0;
+    background-color: #ff9097;
+    clip-path: polygon(1% 100%, 100% 100%, 100% 1%);
+}
+
+.card-bottom-cover:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 10;
+}
+
+.split-content h3 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-top:hover .btn,
+.card-bottom:hover .btn {
+    background-color: #fe424d;
+    border: none;
+}
+
+.bottom-text {
+    max-width: 60%;
+}
+
+.content-wrapper h3 {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.content-wrapper p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* --- THE GHOST ICON STYLE 😈 --- */
+.big-icon {
+    position: absolute;
+    font-size: 8rem;
+    opacity: 0.15;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.card-top .big-icon {
+    left: 20%;
+    bottom: 40%;
+    transform: rotate(-26deg);
+}
+
+.card-bottom .big-icon {
+    left: 75%;
+    top: 25%;
+    transform: rotate(45deg);
+}
+
+.card-top:hover .big-icon {
+    left: 60%;
+    bottom: 8%;
+    opacity: 1;
+    transform: scale(1.2) rotate(0deg) translate(20px, -20px);
+    color: #fe424d;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
+.card-bottom:hover .big-icon {
+    left: 15%;
+    top: 20%;
+    opacity: 1;
+    transform: scale(1.2) rotate(0deg) translate(-20px, 20px);
+    color: #fe424d;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
 .cta-section {
     background-image: url('/assets/travel.avif'); 
     background-size: cover;
     background-position: center;
     padding: 5rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-bottom: 6rem;
     height: 45vh;
     position: relative;
@@ -146,5 +307,13 @@
         transform: scale(1);
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .split-card {
+        height: 300px; /* Slightly shorter on mobile */
+    }
+
+    .top-text, .bottom-text {
+        max-width: 75%; /* More width for text on smaller screens */
     }
 }
