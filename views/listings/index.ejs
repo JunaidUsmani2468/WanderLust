@@ -1,5 +1,7 @@
 <% layout('/layouts/boilerplate.ejs') %>
 
+<% block('style').append('index') %>
+
 <div class="filter">
     <% for(let category in listingCategories) { %>
 

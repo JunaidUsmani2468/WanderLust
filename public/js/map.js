@@ -5,7 +5,7 @@ let mapCoordinates = [coordinates[1], coordinates[0]];
 
 // Icon design
 const icon = L.icon({
-    iconUrl: '/images/compass.svg',
+    iconUrl: '/assets/compass.svg',
 
     iconSize:     [40, 40],
     iconAnchor:   [20, 20],

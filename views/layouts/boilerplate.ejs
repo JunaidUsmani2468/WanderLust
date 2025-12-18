@@ -35,9 +35,15 @@
 
         <link rel="stylesheet" href="/css/style.css">
 
+        <% let specificStyle = block('style').toString(); %>
+
+        <% if (specificStyle.trim() !== "") { %>
+            <link rel="stylesheet" href="/css/<%- specificStyle %>.css">
+        <% } %>
+
         <link
             rel="icon"
-            href="/images/compass.svg"
+            href="/assets/compass.svg"
         >
 
         <link
