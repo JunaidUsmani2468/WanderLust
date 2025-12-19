@@ -372,7 +372,14 @@
     text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-.cta-section .btn-outline-light:hover {
+.cta-section .btn-outline-light {
+    border-width: 2px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.btn-outline-light:hover {
     color: #fe424d;
 }
 
@@ -472,6 +479,9 @@
     }
 
     .cta-section p {
+        color: white;
+        text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+        font-weight: 500;
         font-size: 1rem;
         margin-bottom: 2rem;
     }
@@ -479,15 +489,8 @@
     .cta-section .btn {
         width: 100%;
         display: block;
-        margin: 10px 0;
+        margin: 5px 0;
         padding: 12px 0;
         border-radius: 50px;
-    }
-
-    .cta-section .btn-outline-light {
-        border-width: 2px;
-        font-weight: 600;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(5px);
     }
 }
