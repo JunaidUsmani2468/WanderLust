@@ -43,7 +43,7 @@
 /* Feature Cards */
 .features {
     margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -59,12 +59,10 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    /* box-shadow: 0 4px 12px rgba(0,0,0,0.08); */
 }
 
 #card-2 {
     transform:  translateY(-10px) scale(1.05);
-    /* box-shadow: 0 8px 20px rgba(0,0,0,0.12); */
     border: 3px solid #ff9097;
     background-color: #fff0f1;
 }
@@ -77,7 +75,6 @@
 
 .feature-card:hover {
     transform: translateY(-10px) scale(1.02);
-    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
     color: white;
     background-size: cover;
     background-position: center;
@@ -85,7 +82,6 @@
 
 #card-2:hover {
     transform: translateY(-15px) scale(1.08);
-    /* box-shadow: 0 15px 30px rgba(0,0,0,0.3); */
     border: 3px solid #8f8f8f;
 }
 
@@ -226,7 +222,7 @@
     margin-bottom: 1rem;
 }
 
-/* --- THE GHOST ICON STYLE 😈 --- */
+/* --- THE ICON STYLE 😈 --- */
 .big-icon {
     position: absolute;
     font-size: 8rem;
@@ -240,7 +236,7 @@
 .card-top .big-icon {
     left: 20%;
     bottom: 40%;
-    transform: rotate(-26deg);
+    transform: rotate(-27deg);
 }
 
 .card-top-cover:hover .big-icon {
@@ -287,7 +283,7 @@
     
     /* ANIMATION SETUP */
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateX(-30px);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     z-index: 5;
 }
@@ -309,7 +305,7 @@
 
 .card-top-cover:hover .glass-desc-box {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
     transition-delay: 0.2s;
 }
 
@@ -319,13 +315,13 @@
     left: auto;
     top: 3rem;
     right: 3rem; 
-    transform: translateY(-30px);
+    transform: translateX(30px);
     text-align: right;
 }
 
 .card-bottom-cover:hover .glass-desc-box {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
     transition-delay: 0.2s;
 }
 
@@ -380,19 +376,118 @@
     color: #fe424d;
 }
 
-/* Mobile Styling */
+/* MOBILE STYLING */
 @media (max-width: 768px) {
-    #card-2 {
-        transform: scale(1);
-        margin-top: 1rem;
+
+    /* Hero section */
+    .hero-section {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        min-height: 80vh;
+        border-radius: 0;
+        background-position: center bottom;
+    }
+
+    .hero-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        line-height: 1.1;
+    }
+
+    .hero-title span {
+        display: block;
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .hero-title .small-word {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 5px 0;
+    }
+
+    .hero-title .brand-name {
+        font-size: 3.5rem;
+        color: #ff385c;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    
+    .hero-content p {
+        margin-top: auto; 
+        font-size: 1rem;
         margin-bottom: 1rem;
+        opacity: 0.9;
+        max-width: 80%;
+        align-self: center;
     }
 
-    .split-card {
-        height: 300px; /* Slightly shorter on mobile */
+    .hero-content .btn {
+        width: 50%;
+        align-self: center;
     }
 
-    .top-text, .bottom-text {
-        max-width: 75%; /* More width for text on smaller screens */
+    /* Feature Cards */
+    #card-2 {
+        transform: translateY(0) scale(1);
+    }
+
+    #card-2:hover {
+        transform: translateY(0px) scale(1.05);
+    }
+
+    .feature-card:hover {
+        transform: translateY(0px) scale(1.05);
+    }
+
+    /* CTA Section */
+    .cta-section {
+        padding: 4rem 1.5rem; 
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 25px;
+        text-align: center;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .cta-section .btn {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+        padding: 12px 0;
+        border-radius: 50px;
+    }
+
+    .cta-section .btn-outline-light {
+        border-width: 2px;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
     }
 }
