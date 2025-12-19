@@ -105,7 +105,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/card-3.avif');
 }
 
-/* --- Split Card Sketch Styles --- */
+/* --- Split Card Styles --- */
 .split-card {
     position: relative;
     height: 450px;
@@ -125,6 +125,14 @@
     transition: all 0.5s ease;
 }
 
+.split-content h3 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Card Top */
+
 .card-top {
     border: 3px solid #8f8f8f;
     border-radius: 20px 0 20px 0;
@@ -135,7 +143,7 @@
     justify-content: flex-start;
 }
 
-.card-top:hover {
+.card-top-cover:hover .card-top {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/card-4.avif');
     background-size: cover;
     background-position: center;
@@ -143,7 +151,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.card-top:hover h3 {
+.card-top-cover:hover h3 {
     color: #fe424d;
 }
 
@@ -162,6 +170,8 @@
     max-width: 60%;
 }
 
+/* Bottom Card */
+
 .card-bottom {
     border: 3px solid #ff9097;
     border-radius: 20px 0 20px 0;
@@ -173,7 +183,7 @@
     text-align: right;
 }
 
-.card-bottom:hover {
+.card-bottom-cover:hover .card-bottom {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/card-5.avif');
     background-size: cover;
     background-position: center;
@@ -181,7 +191,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.card-bottom:hover h3 {
+.card-bottom-cover:hover h3 {
     color: #fe424d;
 }
 
@@ -196,20 +206,14 @@
     z-index: 10;
 }
 
-.split-content h3 {
-    font-weight: 800;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.card-top:hover .btn,
-.card-bottom:hover .btn {
-    background-color: #fe424d;
-    border: none;
-}
-
 .bottom-text {
     max-width: 60%;
+}
+
+.card-top-cover:hover .btn,
+.card-bottom-cover:hover .btn {
+    background-color: #fe424d;
+    border: none;
 }
 
 .content-wrapper h3 {
@@ -226,7 +230,8 @@
 .big-icon {
     position: absolute;
     font-size: 8rem;
-    opacity: 0.15;
+    opacity: .9;
+    color: #fe424d;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     z-index: 1;
     pointer-events: none;
@@ -238,30 +243,104 @@
     transform: rotate(-26deg);
 }
 
-.card-bottom .big-icon {
-    left: 75%;
-    top: 25%;
-    transform: rotate(45deg);
-}
-
-.card-top:hover .big-icon {
+.card-top-cover:hover .big-icon {
     left: 60%;
     bottom: 8%;
     opacity: 1;
     transform: scale(1.2) rotate(0deg) translate(20px, -20px);
-    color: #fe424d;
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
 }
 
-.card-bottom:hover .big-icon {
+.card-bottom .big-icon {
+    left: 75%;
+    top: 28%;
+    transform: rotate(270deg);
+}
+
+.card-bottom-cover:hover .big-icon {
     left: 15%;
     top: 20%;
     opacity: 1;
     transform: scale(1.2) rotate(0deg) translate(-20px, 20px);
-    color: #fe424d;
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
 }
 
+/* --- THE GLASS BOX STYLE 😈 --- */
+.glass-desc-box {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    width: 400px;
+    padding: 2rem;
+    
+    /* GLASSMORPHISM EFFECT */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px 0 15px 0;
+    
+    /* Text Styling */
+    color: white;
+    text-align: left;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    
+    /* ANIMATION SETUP */
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 5;
+}
+
+.glass-desc-box h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #fe424d;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.glass-desc-box p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+.card-top-cover:hover .glass-desc-box {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+/* --- HOST GLASS BOX POSITIONING --- */
+.glass-host-pos {
+    bottom: auto; 
+    left: auto;
+    top: 3rem;
+    right: 3rem; 
+    transform: translateY(-30px);
+    text-align: right;
+}
+
+.card-bottom-cover:hover .glass-desc-box {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+.card-top-cover:hover .glass-desc-box:hover,
+.card-bottom-cover:hover .glass-desc-box:hover {
+    transform: scale(1.05); 
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(20px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    cursor: default;
+    transition-delay: 0;
+}
+
+/* Call to Action */
 .cta-section {
     background-image: url('/assets/travel.avif'); 
     background-size: cover;
