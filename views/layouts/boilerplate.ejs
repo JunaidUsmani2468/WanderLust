@@ -38,7 +38,7 @@
         <% let specificStyle = block('style').toString(); %>
 
         <% if (specificStyle.trim() !== "") { %>
-            <link rel="stylesheet" href="/css/<%- specificStyle %>.css">
+            <link rel="stylesheet" href="/css/<%- specificStyle.trim() %>.css">
         <% } %>
 
         <link

@@ -1,3 +1,7 @@
+body {
+    user-select: none;
+}
+
 .hero-section {
     height: 80vh;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/hero.avif');
@@ -234,16 +238,15 @@
 }
 
 .card-top .big-icon {
-    left: 20%;
+    left: 15%;
     bottom: 40%;
-    transform: rotate(-27deg);
 }
 
 .card-top-cover:hover .big-icon {
-    left: 60%;
-    bottom: 8%;
+    left: 64%;
+    bottom: 12%;
     opacity: 1;
-    transform: scale(1.2) rotate(0deg) translate(20px, -20px);
+    transform: scale(1.2);
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
 }
 
@@ -254,10 +257,10 @@
 }
 
 .card-bottom-cover:hover .big-icon {
-    left: 15%;
-    top: 20%;
+    left: 11%;
+    top: 24%;
     opacity: 1;
-    transform: scale(1.2) rotate(0deg) translate(-20px, 20px);
+    transform: scale(1.2) rotate(0deg);
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
 }
 
@@ -333,7 +336,6 @@
     border-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 15px 40px rgba(0,0,0,0.6);
     cursor: default;
-    transition-delay: 0;
 }
 
 /* Call to Action */
@@ -427,10 +429,10 @@
     }
 
     .hero-title .brand-name {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         color: #ff385c;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         text-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
     
@@ -461,11 +463,77 @@
         transform: translateY(0px) scale(1.05);
     }
 
+    /* --- Split Card Styles --- */
+    .split-card {
+        height: 700px;
+    }
+
+    /* Card Top */
+    .card-top {
+        clip-path: polygon(0 0, 100% 0, 100% 38.5%, 75% 48.5%, 25% 48.5%, 0 58.5%);
+    }
+
+    .card-top-cover {
+        clip-path: polygon(0 0, 100% 0, 100% 39.5%, 75% 49.5%, 25% 49.5%, 0 59.5%);
+    }
+
+    .top-text {
+        max-width: 100%;
+    }
+
+    /* Bottom Card */
+    .card-bottom {
+        clip-path: polygon(0 61.5%, 25% 51.5%, 75% 51.5%, 100% 41.5%, 100% 100%, 0 100%);
+    }
+
+    .card-bottom-cover {
+        clip-path: polygon(0 60.5%, 25% 50.5%, 75% 50.5%, 100% 40.5%, 100% 100%, 0 100%);
+    }
+
+    .bottom-text {
+        max-width: 100%;
+    }
+
+    /* Big Icon */
+    .card-top .big-icon {
+        left: 28%;
+        bottom: 53%;
+    }
+
+    .card-top-cover:hover .big-icon {
+        left: 28%;
+        bottom: 8%;
+        transform: scale(1.5);
+    }
+
+    .card-bottom .big-icon {
+        left: 28%;
+        top: 55%;
+        transform: scale(.9) rotate(270deg);
+    }
+
+    .card-bottom-cover:hover .big-icon {
+        left: 28%;
+        top: 10%;
+        transform: scale(1.4) rotate(0deg);
+    }
+
+    .glass-host-pos {
+        top: auto;
+        right: auto;
+    }
+
+    .glass-desc-box {
+        width: 90%;
+        bottom: 40%;
+        left: 5%;
+    }
+    
     /* CTA Section */
     .cta-section {
-        padding: 4rem 1.5rem; 
+        height: auto;
+        padding: 2rem; 
         margin-top: 2rem;
-        margin-bottom: 2rem;
         border-radius: 25px;
         text-align: center;
         background-position: center center;
