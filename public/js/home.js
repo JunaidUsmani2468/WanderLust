@@ -1,31 +1,69 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Select all cards we marked in HTML
-    const touchCards = document.querySelectorAll('.js-touch-card');
+    // 1. Select all cards (Features + Split Covers)
+    const cards = document.querySelectorAll('.js-touch-card'); 
 
-    touchCards.forEach(card => {
+    cards.forEach(card => {
         card.addEventListener('click', (e) => {
-            // Check if device supports hover (roughly checks if it's a desktop)
-            // If it's a desktop, we usually want to ignore clicks and let hover work,
-            // UNLESS you want click-to-lock on desktop too. 
-            // For now, we allow both for maximum responsiveness.
+            
+            // 🛑 PC KILL SWITCH: If screen is wider than 768px, do nothing.
+            // This ensures touch effects never trigger on laptop/desktop.
+            if (window.innerWidth > 768) return;
 
-            e.stopPropagation(); // Stop click from hitting the document "Close All" listener
+            e.stopPropagation(); // Stop document "Close All" listener
 
-            // 2. toggle Logic: Is this card already open?
             const isActive = card.classList.contains('touch-active');
+            const isGlassBox = e.target.closest('.glass-desc-box');
 
-            // 3. "Accordion" Reset: Close ALL cards first
-            touchCards.forEach(c => c.classList.remove('touch-active'));
+            // --- LOGIC START ---
 
-            // 4. If it wasn't open, open it now
+            // Scenario A: Card is CLOSED. We want to OPEN it.
             if (!isActive) {
+                // 1. Close all other cards first
+                cards.forEach(c => c.classList.remove('touch-active'));
+                // 2. Open this card
                 card.classList.add('touch-active');
+                return; // Done.
+            }
+
+            // Scenario B: Card is OPEN. 
+            if (isActive) {
+                // If user touched the Glass Box (content), DO NOT CLOSE.
+                // We want them to be able to click links or read text.
+                if (isGlassBox) {
+                    return; 
+                }
+                
+                // If user touched the Background/Header, CLOSE IT.
+                card.classList.remove('touch-active');
             }
         });
     });
 
-    // 5. Global Closer: Clicking anywhere else closes the cards
+    const glassCards = document.querySelectorAll('.js-glass-trigger');
+
+    glassCards.forEach(glass => {
+        glass.addEventListener('click', (e) => {
+            // STOP PC:
+            if (window.innerWidth > 768) return;
+
+            // STOP BUBBLING: Don't tell the parent card we clicked!
+            e.stopPropagation();
+
+            // Toggle ONLY this glass card
+            const isGlassActive = glass.classList.contains('glass-active');
+            
+            // Optional: Close other glass cards if you want only 1 active
+            glassCards.forEach(g => g.classList.remove('glass-active'));
+
+            if (!isGlassActive) {
+                glass.classList.add('glass-active');
+            }
+        });
+    });
+
+    // Update Global Closer to also close glass cards
     document.addEventListener('click', () => {
-        touchCards.forEach(c => c.classList.remove('touch-active'));
+        cards.forEach(c => c.classList.remove('touch-active'));
+        glassCards.forEach(g => g.classList.remove('glass-active')); // <--- Added this
     });
 });
