@@ -146,6 +146,16 @@ body {
     max-width: 60%;
 }
 
+.content-wrapper h3 {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.content-wrapper p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
 /* Icons & Content Base */
 .big-icon {
     position: absolute;
@@ -285,6 +295,14 @@ body {
         padding-bottom: 3rem;
     }
 
+    .hero-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        line-height: 1.1;
+    }
+
     .hero-title span {
         display: block;
         font-size: 3rem;
@@ -371,6 +389,39 @@ body {
     .glass-host-pos {
         top: auto;
         right: auto;
+    }
+
+    /* CTA Section Mobile */
+    .cta-section {
+        height: auto;
+        padding: 2rem; 
+        margin-top: 2rem;
+        border-radius: 25px;
+        text-align: center;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    .cta-section p {
+        color: white;
+        text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .cta-section .btn {
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+        padding: 12px 0;
+        border-radius: 50px;
     }
 }
 
