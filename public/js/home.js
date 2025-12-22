@@ -14,8 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const isActive = card.classList.contains('touch-active');
             const isGlassBox = e.target.closest('.glass-desc-box');
 
-            // --- LOGIC START ---
-
             // Scenario A: Card is CLOSED. We want to OPEN it.
             if (!isActive) {
                 // 1. Close all other cards first
@@ -27,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Scenario B: Card is OPEN. 
             if (isActive) {
+                
                 // If user touched the Glass Box (content), DO NOT CLOSE.
-                // We want them to be able to click links or read text.
                 if (isGlassBox) {
                     return; 
                 }
@@ -52,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Toggle ONLY this glass card
             const isGlassActive = glass.classList.contains('glass-active');
             
-            // Optional: Close other glass cards if you want only 1 active
+            // Close glass card
             glassCards.forEach(g => g.classList.remove('glass-active'));
 
             if (!isGlassActive) {
@@ -61,9 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Update Global Closer to also close glass cards
+    //Global Closer
     document.addEventListener('click', () => {
         cards.forEach(c => c.classList.remove('touch-active'));
-        glassCards.forEach(g => g.classList.remove('glass-active')); // <--- Added this
+        glassCards.forEach(g => g.classList.remove('glass-active'));
     });
 });
