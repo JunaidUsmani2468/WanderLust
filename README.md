@@ -21,7 +21,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
     * A robust search algorithm that parses user queries intelligently. Whether you type a specific city, a country, or both (e.g., "Paris, France"), the backend logic separates these entities to fetch precise results.
 
 * **🎨 Custom UI & Landing Page**
-    * Deviating from the standard layout, I designed a completely unique **Home Page** with modern aesthetics and dynamic SVGs for a fluid user experience.
+    * Deviating from the standard layout, I designed a completely unique **Home Page** with modern aesthetics and dynamic animations for a fluid user experience.
     * **Interactive User Menu:** A responsive, conditional dropdown menu that adapts based on authentication state (Guest vs. Logged-in User).
 
 * **⭐ Custom Rating System**
