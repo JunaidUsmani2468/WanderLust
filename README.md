@@ -13,30 +13,20 @@ Click here to explore unique stays and start your journey! 👉 [ **[ INSERT LIN
 ## 🌟 Beyond the Tutorial
 While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
 
-* **🗺️ Open-Source Map Integration (Leaflet & Nominatim)**
-    * **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
-    * **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
+| Feature | Description |
+| :--- | :--- |
+| **🗺️ Map Integration** | Replaced Mapbox with **Leaflet.js & Nominatim** (OpenStreetMap) to keep the project 100% free and open-source. |
+| **🎨 Landing Page** | Designed a completely unique **Home Page** with modern aesthetics and dynamic animations. |
+| **🔍 Smart Search** | Built a robust search logic that intelligently parses City and Country names from user queries. |
+| **👥 User Menu** | A smart, conditional dropdown menu that changes based on authentication state (Guest vs. User). |
+| **🧑‍💻 Animated Logo** | Highly styled, custom logo using SVG icons with CSS animations to create a dynamic and engaging visual identity. |
+| **⭐ Rating System** | **Pure JS & CSS** rating logic. No external libraries used for maximum performance. |
+| **🏷️ Filters** | Implemented category-based filtering (e.g., Farms, Pools, Arctic) for easy discovery. |
+| **⚖️ Legal Pages** | Added professional **Privacy & Terms** pages ("Junaid Advocate" edition 😉). |
 
-* **🔍 Smart Search Bar**
-    * A robust search algorithm that parses user queries intelligently. Whether you type a specific city, a country, or both (e.g., "Paris, France"), the backend logic separates these entities to fetch precise results.
-
-* **🎨 Custom UI & Landing Page**
-    * Deviating from the standard layout, I designed a completely unique **Home Page** with modern aesthetics and dynamic animations for a fluid user experience.
-
-* **👥 Interactive User Menu:**
-    * A responsive, conditional dropdown menu that adapts based on authentication state (Guest vs. Logged-in User).
-
-* **🧑‍💻 Custom Branding & Animated Logo**
-    * I designed a highly styled, custom logo using SVG icons. Unlike standard static images, I implemented CSS animations within the SVG itself to create a dynamic and engaging visual identity that makes the brand feel alive.
-
-* **⭐ Custom Rating System**
-    * Built from scratch using **Pure JavaScript & CSS**. No heavy external rating libraries were used, ensuring lightweight performance and complete control over the styling.
-
-* **🏷️ Category Filters**
-    * Implemented a functional filtering system (e.g., Iconic Cities, Mountains, Farms) allowing users to sort listings based on their travel interests instantly.
-
-* **⚖️ "Junaid Advocate" 🤣 Legal Pages**
-    * Drafted and styled comprehensive **Privacy Policy** and **Terms & Conditions** pages to give the application a professional, real-world compliance feel.
+#### 🗺️ Why Leaflet & Nominatim?
+* **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
+* **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
 
 ## 📸 Screenshots
 
