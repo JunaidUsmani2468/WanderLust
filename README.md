@@ -1,7 +1,6 @@
 # ✈️ WanderLust
 
 **Your Ultimate Guide to Unique Stays.**
-> *My first Full-Stack Web Application journey.*
 
 ---
 
