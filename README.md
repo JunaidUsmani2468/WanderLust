@@ -1,6 +1,8 @@
-# 🌏 WanderLust ✈️
+# WanderLust 🧭 – Unleash Your Journey 🗺️
 
-A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices. Users can discover, list, and review unique accommodations around the world using smart search, category filters, and interactive maps.
+WanderLust is a hotel booking web application that allows users to easily browse through various listings and reserve accommodations. It provides a clean interface for travelers to discover unique places to stay and allows hosts to list their properties for rent.
+
+This is my first major fullstack project where I handled both the frontend and backend development. It is built as a functional clone of Airbnb and is designed with a responsive layout to ensure a seamless experience on both mobile phones and desktop computers.
 
 ## 🚀 Live Demo
 
