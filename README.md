@@ -1,11 +1,11 @@
 # ✈️ WanderLust
 
-A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices.
+A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices. Users can discover, list, and review unique accommodations around the world using smart search, category filters, and interactive maps.
 
 ## 🚀 Live Demo
 Check out the live application here: **[ INSERT YOUR DEPLOYED LINK HERE ]**
 
-### 🌟 Beyond the Tutorial
+## 🌟 Beyond the Tutorial
 While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
 
 * **🗺️ Open-Source Map Integration (Leaflet & Nominatim)**
@@ -28,9 +28,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **⚖️ "Junaid Advocate" Legal Pages**
     * Drafted and styled comprehensive **Privacy Policy** and **Terms & Conditions** pages to give the application a professional, real-world compliance feel.
 
----
-
-### 📸 Screenshots
+## 📸 Screenshots
 
 | **Immersive Home Page** | **Category Filters & Listings** |
 |:---:|:---:|
@@ -42,9 +40,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 | <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
 | *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
 
----
-
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
 * **Backend:** Node.js, Express.js.
@@ -53,9 +49,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **Maps:** Leaflet.js, OpenStreetMap API.
 * **Cloud Storage:** Cloudinary (for image storage).
 
----
-
-### 📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 Building this project as my first full-stack application helped me understand:
 1.  **MVC Architecture:** Structuring code into Models, Views, and Controllers.
@@ -64,12 +58,8 @@ Building this project as my first full-stack application helped me understand:
 4.  **Middleware:** Handling authentication and server-side validation.
 5.  **API Integration:** Working with Geocoding APIs and Map rendering.
 
----
-
-### 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 This project was initially built under the guidance of **Shradha Khapra (Apna College)**.
 
 A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma Batch" tutorials provided the foundation upon which I built this enhanced version. Her guidance gave me the confidence to debug errors, implement new libraries (like Leaflet), and finally call myself a **Full Stack Developer**.
-
----
