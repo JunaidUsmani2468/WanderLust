@@ -4,7 +4,7 @@ A Responsive Airbnb Clone. My first full-stack project, featuring a highly styli
 
 ## 🚀 Live Demo
 
-Click here to explore unique stays and start your journey! 👉 [ **[ INSERT YOUR LINK HERE ]** ]( INSERT_LINK_URL_HERE )
+Click here to explore unique stays and start your journey! 👉 [ **[ INSERT LINK HERE ]** ]( INSERT_LINK_URL_HERE )
 
 > 💡 **Pro Tip:** Login is hassle-free! You don't need a real email ID—just create a dummy account to test features like adding reviews. 😜
 >
@@ -22,7 +22,12 @@ While this project was initially inspired by a tutorial, I have significantly ex
 
 * **🎨 Custom UI & Landing Page**
     * Deviating from the standard layout, I designed a completely unique **Home Page** with modern aesthetics and dynamic animations for a fluid user experience.
-    * **Interactive User Menu:** A responsive, conditional dropdown menu that adapts based on authentication state (Guest vs. Logged-in User).
+
+* **👥 Interactive User Menu:**
+    * A responsive, conditional dropdown menu that adapts based on authentication state (Guest vs. Logged-in User).
+
+* **🧑‍💻 Custom Branding & Animated Logo**
+    * I designed a highly styled, custom logo using SVG icons. Unlike standard static images, I implemented CSS animations within the SVG itself to create a dynamic and engaging visual identity that makes the brand feel alive.
 
 * **⭐ Custom Rating System**
     * Built from scratch using **Pure JavaScript & CSS**. No heavy external rating libraries were used, ensuring lightweight performance and complete control over the styling.
@@ -30,7 +35,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **🏷️ Category Filters**
     * Implemented a functional filtering system (e.g., Iconic Cities, Mountains, Farms) allowing users to sort listings based on their travel interests instantly.
 
-* **⚖️ "Junaid Advocate" Legal Pages**
+* **⚖️ "Junaid Advocate" Legal Pages 😝**
     * Drafted and styled comprehensive **Privacy Policy** and **Terms & Conditions** pages to give the application a professional, real-world compliance feel.
 
 ## 📸 Screenshots
