@@ -40,7 +40,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 | **Immersive Home Page** | **Category Filters & Listings** |
 |:---:|:---:|
 | <img src="./public/assets/home-page.png" width="100%" alt="Home Page"> | <img src="./public/assets/filter-page.png" width="100%" alt="Filters"> |
-| *Custom designed landing page with dynamic SVG animations* | *Smart filtering to find specific types of stays* |
+| *Custom designed landing page with dynamic animations* | *Smart filtering to find specific types of stays* |
 
 | **Interactive Maps (Leaflet)** | **User Dashboard & Menu** |
 |:---:|:---:|
