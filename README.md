@@ -39,12 +39,12 @@ While this project was initially inspired by a tutorial, I have significantly ex
 
 | **Immersive Home Page** | **Category Filters & Listings** |
 |:---:|:---:|
-| <img src="./assets/home-page.png" width="100%" alt="Home Page"> | <img src="./assets/filter-page.png" width="100%" alt="Filters"> |
+| <img src="./public/assets/home-page.png" width="100%" alt="Home Page"> | <img src="./public/assets/filter-page.png" width="100%" alt="Filters"> |
 | *Custom designed landing page with dynamic SVG animations* | *Smart filtering to find specific types of stays* |
 
 | **Interactive Maps (Leaflet)** | **User Dashboard & Menu** |
 |:---:|:---:|
-| <img src="./assets/map-view.png" width="100%" alt="Map View"> | <img src="./assets/user-menu.png" width="100%" alt="User Menu"> |
+| <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
 | *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
 
 ---
