@@ -1,4 +1,4 @@
-# ✈️ WanderLust
+# 🌏 WanderLust ✈️
 
 A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices. Users can discover, list, and review unique accommodations around the world using smart search, category filters, and interactive maps.
 
@@ -35,7 +35,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **🏷️ Category Filters**
     * Implemented a functional filtering system (e.g., Iconic Cities, Mountains, Farms) allowing users to sort listings based on their travel interests instantly.
 
-* **⚖️ "Junaid Advocate" Legal Pages 😝**
+* **⚖️ "Junaid Advocate" 🤣 Legal Pages**
     * Drafted and styled comprehensive **Privacy Policy** and **Terms & Conditions** pages to give the application a professional, real-world compliance feel.
 
 ## 📸 Screenshots
