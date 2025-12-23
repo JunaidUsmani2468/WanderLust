@@ -3,7 +3,12 @@
 A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices. Users can discover, list, and review unique accommodations around the world using smart search, category filters, and interactive maps.
 
 ## 🚀 Live Demo
-Check out the live application here: **[ INSERT YOUR DEPLOYED LINK HERE ]**
+
+Click here to explore unique stays and start your journey! 👉 [ **[ INSERT YOUR LINK HERE ]** ]( INSERT_LINK_URL_HERE )
+
+> 💡 **Pro Tip:** Login is hassle-free! You don't need a real email ID—just create a dummy account to test features like adding reviews. 😜
+>
+> 😎 **Try this:** Visit the app both as a **Guest** and while **Logged In**. The interface is smart enough to detect your status and completely adapts the User Menu and features accordingly!
 
 ## 🌟 Beyond the Tutorial
 While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
