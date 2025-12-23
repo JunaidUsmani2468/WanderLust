@@ -1,13 +1,9 @@
 # ✈️ WanderLust
 
-**A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices.**
+A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices.
 
----
-
-### 🚀 Live Demo
+## 🚀 Live Demo
 Check out the live application here: **[ INSERT YOUR DEPLOYED LINK HERE ]**
-
----
 
 ### 🌟 Beyond the Tutorial
 While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
