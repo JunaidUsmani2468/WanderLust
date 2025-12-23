@@ -1,6 +1,6 @@
 # ✈️ WanderLust
 
-**Your Ultimate Guide to Unique Stays.**
+**A Responsive Airbnb Clone. My first full-stack project, featuring a highly stylized UI designed for all devices.**
 
 ---
 
