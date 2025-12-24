@@ -6,7 +6,7 @@ This is my first major fullstack project where I handled both the frontend and b
 
 ## 🚀 Live Demo
 
-Click here to explore unique stays and start your journey! 👉 [ **[ INSERT LINK HERE ]** ]( INSERT_LINK_URL_HERE )
+Click here to explore unique stays and start your journey! 👉 [ **[ CLICK HERE ]** ]( https://wanderlust-du5m.onrender.com )
 
 > 💡 **Pro Tip:** Login is hassle-free! You don't need a real email ID—just create a dummy account to test features like adding reviews. 😜
 >
