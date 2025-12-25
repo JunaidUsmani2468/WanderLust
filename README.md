@@ -148,6 +148,37 @@ WanderLust/
 └── 🛡️ schema.js           (Joi Validation)
 ```
 
+## 🔄 Application Workflow
+**Seamless logic meets complex architecture.** This flowchart visualizes the complete end-to-end data flow, from the custom split-landing interaction to secure cloud storage and database operations.
+
+```mermaid
+graph TD
+    A[Start: User Visits App 🌍] --> B[🎨 Split-Landing Hero Page]
+    B --> C{Choose Path}
+    
+    %% Traveler Flow
+    C -- "Traveler (Explore)" --> D[Explore Listings with Leaflet Map 🗺️]
+    D --> F[Select Property]
+    F --> G{Is User Logged In?}
+    G -- No --> E[Login / Signup 🔐]
+    G -- Yes --> H[Book Stay / Leave Review 💬]
+    
+    %% Host Flow
+    C -- "Become a Host" --> E
+    E --> I[User Dashboard & Smart Menu]
+    I --> J[Create New Listing]
+    
+    %% Backend Logic
+    J --> K[Upload Images to Cloudinary ☁️]
+    K --> L[Server-Side Joi Validation 🛡️]
+    L --> M[Save to MongoDB Atlas 💽]
+    M --> N[🚀 Live Listing on Render]
+    
+    H --> O((Happy User ✨))
+    N --> O
+
+```
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
