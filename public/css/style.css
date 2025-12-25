@@ -241,12 +241,23 @@ i,
         animation: bounce .4s 16 alternate;
     }
 
-    .search-inp {
-        padding: 0;
-    }
-
     .s-img {
         height: 20rem;
+    }
+
+    .dropdown-menu { 
+        width: 300px;
+        max-width: 90vw;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+
+    .search-inp {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        text-align: left;
     }
 }
 
