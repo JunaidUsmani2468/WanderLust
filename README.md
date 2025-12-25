@@ -248,6 +248,8 @@ node app.js
 | **Render** | Full-stack hosting with **CI/CD** integration for automated deployments. |
 | **MongoDB Atlas** | Managed Cloud Database ensuring high availability and data persistence 💽. |
 | **Cloudinary** | Content Delivery Network (CDN) for optimized image storage and serving ⚡. |
+| **Cron-job.org** | Automated "Keep-Alive" pings to prevent server sleep and eliminate cold-start latency ⚡. |
+> ⚡ **Performance Note:** I configured an external **Cron Job** to ping the server every 14 minutes. This prevents the Render free-tier from "sleeping," ensuring instant load times for all users.
 
 ## 🤝 Contributing
 **Open source is at the heart of this project.** While this is primarily a portfolio piece, I welcome any suggestions or optimizations!
