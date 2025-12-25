@@ -292,4 +292,6 @@ A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma 
 ## 📜 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
-<h3 text=center>Built with ❤️ by [Junaid Usmani](https://www.linkedin.com/in/your-profile-id)</h3>
+<h3 align="center">
+  Made with 💖 by <a href="https://www.linkedin.com/in/junaid-developer" target="_blank">Junaid</a>
+</h3>
