@@ -84,7 +84,7 @@ WanderLust/
 │   ├── 💽 review.js
 │   └── 💽 user.js
 │
-├── 📂 node_modules/       ⚙️ (Dependencies)
+├── 📂 node_modules/       ⚙️ (Dependencies - Git Ignored)
 │
 ├── 📂 public/             👉 (Static Assets)
 │   │
@@ -148,7 +148,7 @@ WanderLust/
 │       ├── 📜 login.ejs
 │       └── 📜 signup.ejs
 │
-├── ⚙️ .env
+├── ⚙️ .env                🔒 (Local Config - Git Ignored)
 ├── ⚙️ .gitignore
 ├── 🚀 app.js              (Entry Point)
 ├── ☁️ cloudConfig.js      (Cloudinary Setup)
