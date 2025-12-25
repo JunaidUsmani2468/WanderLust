@@ -326,6 +326,8 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 <br>
 
+---
+
 <h3 align="center">
   Made with 💖 by <a href="https://www.linkedin.com/in/junaid-developer" target="_blank">Junaid</a>
 </h3>
