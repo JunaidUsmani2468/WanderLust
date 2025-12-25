@@ -152,6 +152,7 @@ WanderLust/
 ├── ⚙️ .gitignore
 ├── 🚀 app.js              (Entry Point)
 ├── ☁️ cloudConfig.js      (Cloudinary Setup)
+├── ⚖️ LICENSE             (MIT License)
 ├── 🔒 middleware.js       (Auth Guards)
 ├── 📦 package-lock.json   (Dependency Tree)
 ├── 📦 package.json
