@@ -19,6 +19,7 @@ While this project was initially inspired by a tutorial, I have significantly ex
 | :--- | :--- |
 | **🗺️ Map Integration** | Replaced Mapbox with **Leaflet.js & Nominatim** (OpenStreetMap) to keep the project 100% free and open-source. |
 | **🎨 Landing Page** | Designed a completely unique **Home Page** with modern aesthetics and dynamic animations. |
+| 🎴 **Split Card** | Created a diagonal-split-Card using **CSS `clip-path`** and custom **"Double-Tap"** logic for mobile interaction. |
 | **🔍 Smart Search** | Built a robust search logic that intelligently parses City and Country names from user queries. |
 | **👥 User Menu** | A smart, conditional dropdown menu that changes based on authentication state (Guest vs. User). |
 | **🧑‍💻 Animated Logo** | Highly styled, custom logo using SVG icons with CSS animations to create a dynamic and engaging visual identity. |
