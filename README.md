@@ -12,25 +12,6 @@ Click here to explore unique stays and start your journey! 👉 [ **[ CLICK HERE
 >
 > 😎 **Try this:** Visit the app both as a **Guest** and while **Logged In**. The interface is smart enough to detect your status and completely adapts the User Menu and features accordingly!
 
-## 🌟 Beyond the Tutorial
-While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
-
-| Feature | Description |
-| :--- | :--- |
-| **🗺️ Map Integration** | Replaced Mapbox with **Leaflet.js & Nominatim** (OpenStreetMap) to keep the project 100% free and open-source. |
-| **🎨 Landing Page** | Designed a completely unique **Home Page** with modern aesthetics and dynamic animations. |
-| 🎴 **Split Card** | Created a diagonal-split-Card using **CSS `clip-path`** and custom **"Double-Tap"** logic for mobile interaction. |
-| **🔍 Smart Search** | Built a robust search logic that intelligently parses City and Country names from user queries. |
-| **👥 User Menu** | A smart, conditional dropdown menu that changes based on authentication state (Guest vs. User). |
-| **🧑‍💻 Animated Logo** | Highly styled, custom logo using SVG icons with CSS animations to create a dynamic and engaging visual identity. |
-| **⭐ Rating System** | **Pure JS & CSS** rating logic. No external libraries used for maximum performance. |
-| **🏷️ Filters** | Implemented category-based filtering (e.g., Farms, Pools, Arctic) for easy discovery. |
-| **⚖️ Legal Pages** | Added professional **Privacy & Terms** pages ("Junaid Advocate" edition 😉). |
-
-#### 🗺️ Why Leaflet & Nominatim?
-* **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
-* **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
-
 ## 📸 Screenshots
 
 | **Immersive Home Page** |
@@ -42,6 +23,25 @@ While this project was initially inspired by a tutorial, I have significantly ex
 |:---:|:---:|
 | <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
 | *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
+
+## 🌟 Beyond the Tutorial
+While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
+
+| Feature | Description |
+| :--- | :--- |
+| **🗺️ Map Integration** | Replaced Mapbox with **Leaflet.js & Nominatim** (OpenStreetMap) to keep the project 100% free and open-source. |
+| **🎨 Landing Page** | Designed a completely unique **Home Page** with modern aesthetics and dynamic animations. |
+| 🎴 **Split Card** | Created a diagonal-split-Card using **CSS `clip-path`** and custom **"Double-Tap"** logic for mobile interaction. |
+| **🔍 Smart Search** | Built a robust search logic that intelligently parses City and Country names from user queries. |
+| **🏷️ Filters** | Implemented category-based filtering (e.g., Farms, Pools, Arctic) for easy discovery. |
+| **👥 User Menu** | A smart, conditional dropdown menu that changes based on authentication state (Guest vs. User). |
+| **🧑‍💻 Animated Logo** | Highly styled, custom logo using SVG icons with CSS animations to create a dynamic and engaging visual identity. |
+| **⭐ Rating System** | **Pure JS & CSS** rating logic. No external libraries used for maximum performance. |
+| **⚖️ Legal Pages** | Added professional **Privacy & Terms** pages ("Junaid Advocate" edition 😉). |
+
+#### 🗺️ Why Leaflet & Nominatim?
+* **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
+* **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
 
 ## 🛠️ Tech Stack
 
@@ -258,13 +258,13 @@ node app.js
 4.  **Push** to the branch.
 5.  **Open a Pull Request**.
 
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
 ## 🙏 Acknowledgements
 
 This project was initially built under the guidance of **Shradha Khapra (Apna College)**.
 
 A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma Batch" tutorials provided the foundation upon which I built this enhanced version. Her guidance gave me the confidence to debug errors, implement new libraries (like Leaflet), and finally call myself a **Full Stack Developer**.
 
-*Built with ❤️ by [Junaid Usmani](https://www.linkedin.com/in/your-profile-id)*
+## 📜 License
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+<h3 text=center>Built with ❤️ by [Junaid Usmani](https://www.linkedin.com/in/your-profile-id)</h3>
