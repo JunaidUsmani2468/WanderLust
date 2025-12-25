@@ -31,6 +31,18 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
 * **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
 
+## 📸 Screenshots
+
+| **Immersive Home Page** |
+|:---:|
+| <img src="./public/assets/home-page.png" width="100%" alt="Home Page"> |
+| *Custom designed landing page with dynamic animations* |
+
+| **Interactive Maps (Leaflet)** | **User Dashboard & Menu** |
+|:---:|:---:|
+| <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
+| *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
+
 ## 🚀 Key Features
 **Beyond the beautiful UI, WanderLust is built on a robust full-stack architecture.** Here is a breakdown of the complex engineering challenges powering the application.
 
@@ -44,17 +56,97 @@ While this project was initially inspired by a tutorial, I have significantly ex
 | 🚧 **Safety** | **Server-Side Validation** | robust data validation with **Joi** to prevent injection attacks and ensure data integrity. |
 | 💬 **Feedback** | **Flash Messages** | Real-time success/error notifications using **Express-Flash** for better user guidance ✨. |
 
-## 📸 Screenshots
-
-| **Immersive Home Page** |
-|:---:|
-| <img src="./public/assets/home-page.png" width="100%" alt="Home Page"> |
-| *Custom designed landing page with dynamic animations* |
-
-| **Interactive Maps (Leaflet)** | **User Dashboard & Menu** |
-|:---:|:---:|
-| <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
-| *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
+## 📂 Project Structure
+**WanderLust follows a strict MVC (Model-View-Controller) architecture to ensure scalability and code maintainability.**
+```bash
+WanderLust/
+│
+├── 📂 controllers/        👉 (Logic handling)
+│   ├── 📜 listings.js
+│   ├── 📜 reviews.js
+│   └── 📜 users.js
+│
+├── 📂 init/               👉 (Database Seeding)
+│   ├── 📜 data.js
+│   └── 📜 index.js
+│
+├── 📂 models/             👉 (Mongoose Schemas)
+│   ├── 💽 listing.js
+│   ├── 💽 review.js
+│   └── 💽 user.js
+│
+├── 📂 public/             👉 (Static Assets)
+│   │
+│   ├── 📂 assets/         📸 (Images & Icons)
+│   │   ├── 🖼️ card-1.avif ... card-5.avif
+│   │   ├── 🖼️ compass.svg
+│   │   ├── 🖼️ hero.avif
+│   │   ├── 🖼️ home-page.png
+│   │   ├── 🖼️ map-view.png
+│   │   ├── 🖼️ travel.avif
+│   │   └── 🖼️ user-menu.png
+│   │
+│   ├── 📂 css/            🎨 (Modular Styling)
+│   │   ├── 🎨 home.css
+│   │   ├── 🎨 index.css
+│   │   ├── 🎨 show.css
+│   │   └── 🎨 style.css
+│   │
+│   └── 📂 js/             ✨ (Client-Side Logic)
+│       ├── ✨ home.js
+│       ├── ✨ index.js
+│       ├── ✨ script.js
+│       └── ✨ show.js
+│
+├── 📂 routes/             👉 (Express Routers)
+│   ├── 🚦 index.js
+│   ├── 🚦 listing.js
+│   ├── 🚦 review.js
+│   └── 🚦 user.js
+│
+├── 📂 utils/              👉 (Helpers)
+│   ├── 🛠️ category.js
+│   ├── 🛠️ ExpressError.js
+│   └── 🛠️ geoData.js
+│
+├── 📂 views/              👉 (EJS Templates)
+│   │
+│   ├── 📂 includes/       🧩 (Partials)
+│   │   ├── 📜 compass_icon.ejs
+│   │   ├── 📜 flash.ejs
+│   │   ├── 📜 footer.ejs
+│   │   ├── 📜 map_pin_icon.ejs
+│   │   └── 📜 navbar.ejs
+│   │
+│   ├── 📂 layouts/        🏗️ (Base Layout)
+│   │   └── 📜 boilerplate.ejs
+│   │
+│   ├── 📂 listings/       🏠 (Property Pages)
+│   │   ├── 📜 edit.ejs
+│   │   ├── 📜 error.ejs
+│   │   ├── 📜 index.ejs
+│   │   ├── 📜 new.ejs
+│   │   └── 📜 show.ejs
+│   │
+│   ├── 📂 pages/          📄 (Custom Static Pages)
+│   │   ├── 📜 home.ejs
+│   │   ├── 📜 privacy.ejs
+│   │   └── 📜 terms.ejs
+│   │
+│   └── 📂 users/          👤 (Auth Forms)
+│       ├── 📜 login.ejs
+│       └── 📜 signup.ejs
+│
+├── ⚙️ .env
+├── ⚙️ .gitignore
+├── 🚀 app.js              (Entry Point)
+├── ☁️ cloudConfig.js      (Cloudinary Setup)
+├── 🔒 middleware.js       (Auth Guards)
+├── 📦 package-lock.json   (Dependency Tree)
+├── 📦 package.json
+├── 📖 README.md
+└── 🛡️ schema.js           (Joi Validation)
+```
 
 ## 🛠️ Tech Stack
 
