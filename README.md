@@ -84,6 +84,8 @@ WanderLust/
 │   ├── 💽 review.js
 │   └── 💽 user.js
 │
+├── 📂 node_modules/       ⚙️ (Dependencies)
+│
 ├── 📂 public/             👉 (Static Assets)
 │   │
 │   ├── 📂 assets/         📸 (Images & Icons)
