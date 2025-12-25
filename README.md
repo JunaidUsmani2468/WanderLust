@@ -264,7 +264,8 @@ cd WanderLust
 npm install
 ```
 
-**3. Configure Environment Variables Create a .env file in the root directory and add the following keys:**
+**3. Configure Environment Variables**<br>
+Create a `.env` file in the root directory and add the following keys:
 ```bash
 CLOUD_NAME=your_cloudinary_name
 CLOUD_API_KEY=your_cloudinary_api_key
@@ -280,7 +281,7 @@ node app.js
 
 **5.Visit the app**
 ```bash
-👉 http://localhost:8080
+http://localhost:8080
 ```
 
 <br>
