@@ -43,6 +43,22 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
 * **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
 
+## 🤖 AI-Powered Workflow
+
+**I believe in leveraging modern tools to write cleaner, faster, and more robust code.**
+This project was built using an **AI-Assisted Development** workflow, treating AI not as a code generator, but as a pair programmer.
+
+| 🛠️ Tool | 💡 How I Used It |
+| :--- | :--- |
+| ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) | **Concept Generation:** Used for brainstorming architecture (e.g., "How to handle cold-starts on Render?") and generating dummy data. |
+| ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) | **Debugging Partner:** Used to analyze stack traces. I learned that pasting a raw error isn't enough; I have to provide context to get a fix. |
+| ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white) | **Autofill & Refactoring:** Used for boilerplate code, but applied strict manual review to ensure security and logic accuracy. |
+
+### 🚀 Key Lessons from AI Collaboration
+* **🚫 "Trust but Verify":** I learned **when to deny** AI code. AI often suggests deprecated packages or "hallucinated" variables. I manually verified every suggestion against documentation.
+* **🗣️ Prompt Engineering (Bad Input === Bad Output):** I realized AI is only as smart as my instructions. Learning to write specific, context-aware prompts saved hours of debugging.
+* **🧱 Bridging the Knowledge Gap:** AI helped me implement professional features I had never touched before (like **Cron Jobs** and **Leaflet Maps**) by explaining the *logic*, not just giving the code.
+
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
