@@ -285,9 +285,13 @@ node app.js
 
 ## 🙏 Acknowledgements
 
-This project was initially built under the guidance of **Shradha Khapra (Apna College)**.
+**Credit where credit is due.** This project was built on the strong foundation laid by **Shradha Khapra** and the **Apna College** team.
 
-A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma Batch" tutorials provided the foundation upon which I built this enhanced version. Her guidance gave me the confidence to debug errors, implement new libraries (like Leaflet), and finally call myself a **Full Stack Developer**.
+![Inspiration](https://img.shields.io/badge/Inspiration-Apna_College-8A2BE2?style=for-the-badge&logo=youtube&logoColor=white)
+
+* **The Mentor:** A massive thank you to **Shradha Ma'am** for making complex concepts like **MVC Architecture**, **Middlewares**, and **Database Relations** feel easy. Her teaching style didn't just help me copy code; it taught me how to *think* like a developer. 🧠
+* **The "Sigma" Boost:** The "Sigma Batch" provided the roadmap, but her encouragement gave me the confidence to go off-road, switch to **Leaflet**, integrate **Cron Jobs**, and truly own this project. 🚀
+* **The Community:** Special thanks to the open-source contributors behind Passport.js, Leaflet, and Mongoose who make tools we love.
 
 ## 📜 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
