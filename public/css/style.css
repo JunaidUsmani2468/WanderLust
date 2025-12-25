@@ -248,15 +248,13 @@ i,
     .dropdown-menu { 
         width: 300px;
         max-width: 90vw;
-        left: 50%;
-        transform: translateX(-50%);
         position: absolute;
     }
 
     .search-inp {
         width: 100%;
         box-sizing: border-box;
-        padding: 0;
+        padding: 0 0 0 15px;
         text-align: left;
     }
 }
