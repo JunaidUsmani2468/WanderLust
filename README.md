@@ -43,6 +43,15 @@ While this project was initially inspired by a tutorial, I have significantly ex
 | <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
 | *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
 
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
+* **Backend:** Node.js, Express.js.
+* **Database:** MongoDB, Mongoose.
+* **Authentication:** Passport.js (Local Strategy).
+* **Maps:** Leaflet.js, OpenStreetMap API.
+* **Cloud Storage:** Cloudinary (for image storage).
+
 ## 🚀 Key Features
 **Beyond the beautiful UI, WanderLust is built on a robust full-stack architecture.** Here is a breakdown of the complex engineering challenges powering the application.
 
@@ -188,6 +197,15 @@ graph TD
 
 ```
 
+## 📚 Learning Outcomes
+
+Building this project as my first full-stack application helped me understand:
+1.  **MVC Architecture:** Structuring code into Models, Views, and Controllers.
+2.  **RESTful Routing:** creating proper CRUD operations.
+3.  **Database Relationships:** Linking Users, Listings, and Reviews in MongoDB.
+4.  **Middleware:** Handling authentication and server-side validation.
+5.  **API Integration:** Working with Geocoding APIs and Map rendering.
+
 ## 🛠️ Installation & Setup
 
 **Want to run this project locally? Follow these simple steps.**
@@ -240,31 +258,13 @@ node app.js
 4.  **Push** to the branch.
 5.  **Open a Pull Request**.
 
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
-* **Backend:** Node.js, Express.js.
-* **Database:** MongoDB, Mongoose.
-* **Authentication:** Passport.js (Local Strategy).
-* **Maps:** Leaflet.js, OpenStreetMap API.
-* **Cloud Storage:** Cloudinary (for image storage).
-
-## 📚 Learning Outcomes
-
-Building this project as my first full-stack application helped me understand:
-1.  **MVC Architecture:** Structuring code into Models, Views, and Controllers.
-2.  **RESTful Routing:** creating proper CRUD operations.
-3.  **Database Relationships:** Linking Users, Listings, and Reviews in MongoDB.
-4.  **Middleware:** Handling authentication and server-side validation.
-5.  **API Integration:** Working with Geocoding APIs and Map rendering.
+## 📜 License
+Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ## 🙏 Acknowledgements
 
 This project was initially built under the guidance of **Shradha Khapra (Apna College)**.
 
 A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma Batch" tutorials provided the foundation upon which I built this enhanced version. Her guidance gave me the confidence to debug errors, implement new libraries (like Leaflet), and finally call myself a **Full Stack Developer**.
-
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
 
 *Built with ❤️ by [Junaid Usmani](https://www.linkedin.com/in/your-profile-id)*
