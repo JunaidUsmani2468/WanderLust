@@ -188,6 +188,40 @@ graph TD
 
 ```
 
+## 🛠️ Installation & Setup
+
+**Want to run this project locally? Follow these simple steps.**
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/JunaidUsmani2468/WanderLust.git
+cd WanderLust
+```
+
+**2. Install Dependencies**
+```bash
+npm install
+```
+
+**3. Configure Environment Variables Create a .env file in the root directory and add the following keys:**
+```bash
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_api_key
+CLOUD_API_SECRET=your_cloudinary_api_secret
+ATLASDB_URL=your_mongodb_connection_string
+MY_SECRET=your_session_secret
+```
+
+**4. Start the Application**
+```bash
+node app.js
+```
+
+**5.Visit the app**
+```bash
+👉 http://localhost:8080
+```
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
