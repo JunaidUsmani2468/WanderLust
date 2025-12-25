@@ -4,6 +4,8 @@ WanderLust is a hotel booking web application that allows users to easily browse
 
 This is my first major fullstack project where I handled both the frontend and backend development. It is built as a functional clone of Airbnb and is designed with a responsive layout to ensure a seamless experience on both mobile phones and desktop computers.
 
+<br>
+
 ## 🚀 Live Demo
 
 Click here to explore unique stays and start your journey! 👉 [ **[ CLICK HERE ]** ]( https://wanderlust-du5m.onrender.com )
@@ -11,6 +13,8 @@ Click here to explore unique stays and start your journey! 👉 [ **[ CLICK HERE
 > 💡 **Pro Tip:** Login is hassle-free! You don't need a real email ID—just create a dummy account to test features like adding reviews. 😜
 >
 > 😎 **Try this:** Visit the app both as a **Guest** and while **Logged In**. The interface is smart enough to detect your status and completely adapts the User Menu and features accordingly!
+
+<br>
 
 ## 📸 Screenshots
 
@@ -23,6 +27,8 @@ Click here to explore unique stays and start your journey! 👉 [ **[ CLICK HERE
 |:---:|:---:|
 | <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
 | *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
+
+<br>
 
 ## 🌟 Beyond the Tutorial
 While this project was initially inspired by a tutorial, I have significantly expanded its capabilities, design, and architecture to build a more robust production-ready application. Here are the major custom implementations:
@@ -43,6 +49,8 @@ While this project was initially inspired by a tutorial, I have significantly ex
 * **The Challenge:** The original tutorial relied on Mapbox, which now requires credit card details for API access.
 * **My Solution:** I completely re-engineered the geolocation system using **Leaflet.js** for rendering and **OpenStreetMap (Nominatim API)** for geocoding. This ensures the project remains 100% free and open-source without sacrificing interactive map functionality.
 
+<br>
+
 ## 🤖 AI-Powered Workflow
 
 **I believe in leveraging modern tools to write cleaner, faster, and more robust code.**
@@ -59,6 +67,8 @@ This project was built using an **AI-Assisted Development** workflow, treating A
 * **🗣️ Prompt Engineering (Bad Input === Bad Output):** I realized AI is only as smart as my instructions. Learning to write specific, context-aware prompts saved hours of debugging.
 * **🧱 Bridging the Knowledge Gap:** AI helped me implement professional features I had never touched before (like **Cron Jobs** and **Leaflet Maps**) by explaining the *logic*, not just giving the code.
 
+<br>
+
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
@@ -67,6 +77,8 @@ This project was built using an **AI-Assisted Development** workflow, treating A
 | **⚙️ Backend** | ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![Passport.js](https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge&logo=passport&logoColor=white) ![Joi](https://img.shields.io/badge/Joi-Validation-FF3E00?style=for-the-badge) |
 | **💽 Database** | ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white) |
 | **🗺️ Maps & Tools** | ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) |
+
+<br>
 
 ## 🚀 Key Features
 **Beyond the beautiful UI, WanderLust is built on a robust full-stack architecture.** Here is a breakdown of the complex engineering challenges powering the application.
@@ -80,6 +92,8 @@ This project was built using an **AI-Assisted Development** workflow, treating A
 | ☁️ **Data** | **Cloud Image Storage** | Optimized image uploading and storage handling using **Cloudinary** 📸. |
 | 🚧 **Safety** | **Server-Side Validation** | robust data validation with **Joi** to prevent injection attacks and ensure data integrity. |
 | 💬 **Feedback** | **Flash Messages** | Real-time success/error notifications using **Express-Flash** for better user guidance ✨. |
+
+<br>
 
 ## 📂 Project Structure
 **WanderLust follows a strict MVC (Model-View-Controller) architecture to ensure scalability and code maintainability.**
@@ -176,6 +190,8 @@ WanderLust/
 └── 🛡️ schema.js           (Joi Validation)
 ```
 
+<br>
+
 ## 🔄 Application Workflow
 **Seamless logic meets complex architecture.** This flowchart visualizes the complete end-to-end data flow, from the custom split-landing interaction to secure cloud storage and database operations.
 
@@ -216,6 +232,8 @@ graph TD
 
 ```
 
+<br>
+
 ## 🧠 Learning Outcomes
 
 **Building WanderLust transformed my theoretical knowledge into production-grade engineering skills.**
@@ -228,6 +246,8 @@ graph TD
 | **🔒 Security** | Implemented robust security measures including **Session-based Authentication** (Passport.js), **Joi Validation**, and Environment Variable protection. |
 | **⚡ Performance Ops** | Solved the "Cold Start" problem on Render by implementing **Cron Jobs** to keep the server active and responsive. |
 | **🌐 API Integration** | Replaced paid mapping services with **Open-Source alternatives** (Leaflet + Nominatim), mastering asynchronous data handling. |
+
+<br>
 
 ## 🛠️ Installation & Setup
 
@@ -263,6 +283,8 @@ node app.js
 👉 http://localhost:8080
 ```
 
+<br>
+
 ## 🚀 Deployment
 **WanderLust is production-ready and deployed using modern cloud infrastructure.**
 
@@ -274,6 +296,8 @@ node app.js
 | **Cron-job.org** | Automated "Keep-Alive" pings to prevent server sleep and eliminate cold-start latency ⚡. |
 > ⚡ **Performance Note:** I configured an external **Cron Job** to ping the server every 14 minutes. This prevents the Render free-tier from "sleeping," ensuring instant load times for all users.
 
+<br>
+
 ## 🤝 Contributing
 **Open source is at the heart of this project.** While this is primarily a portfolio piece, I welcome any suggestions or optimizations!
 
@@ -282,6 +306,8 @@ node app.js
 3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
 4.  **Push** to the branch.
 5.  **Open a Pull Request**.
+
+<br>
 
 ## 🙏 Acknowledgements
 
@@ -293,8 +319,12 @@ node app.js
 * **The "Sigma" Boost:** The "Sigma Batch" provided the roadmap, but her encouragement gave me the confidence to go off-road, switch to **Leaflet**, integrate **Cron Jobs**, and truly own this project. 🚀
 * **The Community:** Special thanks to the open-source contributors behind Passport.js, Leaflet, and Mongoose who make tools we love.
 
+<br>
+
 ## 📜 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
+
+<br>
 
 <h3 align="center">
   Made with 💖 by <a href="https://www.linkedin.com/in/junaid-developer" target="_blank">Junaid</a>
