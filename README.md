@@ -200,14 +200,18 @@ graph TD
 
 ```
 
-## 📚 Learning Outcomes
+## 🧠 Learning Outcomes
 
-Building this project as my first full-stack application helped me understand:
-1.  **MVC Architecture:** Structuring code into Models, Views, and Controllers.
-2.  **RESTful Routing:** creating proper CRUD operations.
-3.  **Database Relationships:** Linking Users, Listings, and Reviews in MongoDB.
-4.  **Middleware:** Handling authentication and server-side validation.
-5.  **API Integration:** Working with Geocoding APIs and Map rendering.
+**Building WanderLust transformed my theoretical knowledge into production-grade engineering skills.**
+
+| 🎓 Domain | 🚀 Key Takeaways & Skills Mastered |
+| :--- | :--- |
+| **🏗️ Architecture** | Mastered the **MVC (Model-View-Controller)** pattern, decoupling logic to ensure the codebase is scalable and maintainable. |
+| **💽 Database Engineering** | Designed complex **One-to-Many relationships** in MongoDB (connecting Users ↔ Listings ↔ Reviews) and handled cascading deletes. |
+| **🤖 AI-Pair Programming** | Leveraged **Generative AI** for architectural planning, debugging complex logic errors, and optimizing documentation workflows (Prompt Engineering). |
+| **🔒 Security** | Implemented robust security measures including **Session-based Authentication** (Passport.js), **Joi Validation**, and Environment Variable protection. |
+| **⚡ Performance Ops** | Solved the "Cold Start" problem on Render by implementing **Cron Jobs** to keep the server active and responsive. |
+| **🌐 API Integration** | Replaced paid mapping services with **Open-Source alternatives** (Leaflet + Nominatim), mastering asynchronous data handling. |
 
 ## 🛠️ Installation & Setup
 
