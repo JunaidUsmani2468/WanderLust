@@ -119,6 +119,12 @@ button {
     cursor: pointer;
 }
 
+/* User Menu Drop Down Menu */
+.dropdown-menu { 
+    width: 300px;
+    position: absolute;
+}
+
 /* Search bar */
 .search-btn {
     background-color: #fe424d;
@@ -245,10 +251,8 @@ i,
         height: 20rem;
     }
 
-    .dropdown-menu { 
-        width: 300px;
+    .dropdown-menu {
         max-width: 90vw;
-        position: absolute;
     }
 
     .search-inp {
