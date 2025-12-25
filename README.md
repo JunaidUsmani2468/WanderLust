@@ -222,6 +222,24 @@ node app.js
 👉 http://localhost:8080
 ```
 
+## 🚀 Deployment
+**WanderLust is production-ready and deployed using modern cloud infrastructure.**
+
+| Service | Role |
+| :--- | :--- |
+| **Render** | Full-stack hosting with **CI/CD** integration for automated deployments. |
+| **MongoDB Atlas** | Managed Cloud Database ensuring high availability and data persistence 💽. |
+| **Cloudinary** | Content Delivery Network (CDN) for optimized image storage and serving ⚡. |
+
+## 🤝 Contributing
+**Open source is at the heart of this project.** While this is primarily a portfolio piece, I welcome any suggestions or optimizations!
+
+1.  **Fork** the repository.
+2.  **Create** your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  **Push** to the branch.
+5.  **Open a Pull Request**.
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, EJS (Embedded JavaScript templates).
@@ -245,3 +263,8 @@ Building this project as my first full-stack application helped me understand:
 This project was initially built under the guidance of **Shradha Khapra (Apna College)**.
 
 A huge thank you to Shradha Ma'am for her incredible teaching style. Her "Sigma Batch" tutorials provided the foundation upon which I built this enhanced version. Her guidance gave me the confidence to debug errors, implement new libraries (like Leaflet), and finally call myself a **Full Stack Developer**.
+
+## 📜 License
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+*Built with ❤️ by [Junaid Usmani](https://www.linkedin.com/in/your-profile-id)*
