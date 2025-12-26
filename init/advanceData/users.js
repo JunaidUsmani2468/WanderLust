@@ -7,7 +7,7 @@ module.exports = [
   { username: "Peter_Parker", email: "peter.parker@dailybugle.com" },
   { username: "Thor_Odinson", email: "thor.odinson@asgard.com" },
   { username: "Loki_Laufeyson", email: "loki.laufeyson@asgard.com" },
-  { username: "Wanda_Maximoff", email: "wanda.maximoff@avengers.com" },
+  { username: "Wanda", email: "wanda.maximoff@avengers.com" },
   { username: "Stephen_Strange", email: "stephen.strange@sorcerer.supreme" },
   { username: "TChalla_Wakanda", email: "tchalla@wakanda.gov" },
 
@@ -20,7 +20,7 @@ module.exports = [
   { username: "Donald_Duck", email: "donald.duck@disney.com" },
   { username: "Bugs_Bunny", email: "bugs.bunny@looneytunes.com" },
   { username: "Daffy_Duck", email: "daffy.duck@looneytunes.com" },
-  { username: "SpongeBob_SquarePants", email: "spongebob@bikinibottom.tv" },
+  { username: "SpongeBob", email: "spongebob@bikinibottom.tv" },
   { username: "Patrick_Star", email: "patrick.star@bikinibottom.tv" },
   { username: "Rick_Sanchez", email: "rick.sanchez@multiverse.tv" },
   { username: "Morty_Smith", email: "morty.smith@multiverse.tv" },
@@ -46,14 +46,13 @@ module.exports = [
   { username: "Mikasa_Ackerman", email: "mikasa.ackerman@scouts.anime" },
 
   // 🇮🇳 INDIAN SUPERHEROES / ICONIC (10)
-  { username: "Shaktimaan_Pandit", email: "shaktimaan@bharatshakti.in" },
+  { username: "Shaktimaan", email: "shaktimaan@bharatshakti.in" },
   { username: "Krish_Rohit", email: "krish.rohit@jaadu.power" },
   { username: "Flying_Jatt", email: "flying.jatt@desipower.in" },
   { username: "Chitti_Robot", email: "chitti.robot@vaseegaran.ai" },
-  { username: "RaOne_GOne", email: "raone@lucifer.game" },
-  { username: "Bahubali_Mahendra", email: "bahubali@mahishmati.king" },
+  { username: "RaOne", email: "raone@lucifer.game" },
+  { username: "Bahubali", email: "bahubali@mahishmati.king" },
   { username: "Bhavesh_Joshi", email: "bhavesh.joshi@justice.india" },
   { username: "Krrish_Jaadu", email: "krrish@superpower.in" },
   { username: "Minnal_Murali", email: "minnal.murali@lightning.kerala" },
-  { username: "Hanuman_Strength", email: "hanuman@vanar.shakti" },
 ];
