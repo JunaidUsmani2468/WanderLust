@@ -6,7 +6,7 @@ module.exports.index = async (req, res) => {
     
     let query = {};
     
-    if (category && category !== "Trending") {
+    if (category) {
         query.category = category;
         
     } else if (location) {
