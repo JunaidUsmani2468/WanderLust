@@ -439,7 +439,7 @@ module.exports = [
   location: "Napa Valley",
   country: "United States",
   geometry: { type: "Point", coordinates: [-122.2869, 38.5025] },
-  imageUrl: "https://images.unsplash.com/photo-1506806732259-39c2d0268443"
+  imageUrl: "https://images.unsplash.com/photo-1573865174887-dd85bc60e3e5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
   title: "Countryside Farm Retreat",
@@ -449,7 +449,7 @@ module.exports = [
   location: "Tuscany",
   country: "Italy",
   geometry: { type: "Point", coordinates: [11.2558, 43.7696] },
-  imageUrl: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+  imageUrl: "https://images.unsplash.com/photo-1757435933787-896f482f18f3?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
   title: "Mountain Farm Stay",
@@ -459,7 +459,7 @@ module.exports = [
   location: "Himachal",
   country: "India",
   geometry: { type: "Point", coordinates: [77.1734, 31.1048] },
-  imageUrl: "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+  imageUrl: "https://plus.unsplash.com/premium_photo-1663099373746-703d6504d265?q=80&w=1186&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 
 /* ===================== ARCTIC ===================== */
@@ -471,7 +471,7 @@ module.exports = [
   location: "Lapland",
   country: "Finland",
   geometry: { type: "Point", coordinates: [25.7482, 66.5039] },
-  imageUrl: "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66"
+  imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
   title: "Snow Dome Cabin",
@@ -481,7 +481,7 @@ module.exports = [
   location: "Reykjavik",
   country: "Iceland",
   geometry: { type: "Point", coordinates: [-21.8174, 64.1265] },
-  imageUrl: "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66"
+  imageUrl: "https://images.unsplash.com/photo-1553550319-d8d5393e1c80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
   title: "Frozen Lake Lodge",
@@ -491,7 +491,7 @@ module.exports = [
   location: "Kiruna",
   country: "Sweden",
   geometry: { type: "Point", coordinates: [20.2253, 67.8558] },
-  imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+  imageUrl: "https://images.unsplash.com/photo-1583381707566-5e3062289547?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
   title: "Northern Lights Camp",
@@ -501,7 +501,7 @@ module.exports = [
   location: "Tromsø",
   country: "Norway",
   geometry: { type: "Point", coordinates: [18.9553, 69.6492] },
-  imageUrl: "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66"
+  imageUrl: "https://images.unsplash.com/photo-1577992141014-c211608c9038?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }
 ];
 
