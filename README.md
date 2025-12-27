@@ -107,9 +107,17 @@ WanderLust/
 │   ├── 📜 reviews.js
 │   └── 📜 users.js
 │
-├── 📂 init/               👉 (Database Seeding)
-│   ├── 📜 data.js
-│   └── 📜 index.js
+├── 📂 init/                     👉 (Database initialization & regeneration)
+|   |
+│   ├── 📂 advanceData/          👉 Pure seed data (NO logic)
+|   |   |
+│   │   ├── 📜 listings.js
+│   │   ├── 📜 reviews.js
+│   │   └── 📜 users.js
+│   │
+│   ├── 📜 seedUsers.js                  👉 (Bulk user creation)
+│   ├── 📜 seedListingsAndReviews.js     👉 (Listings + reviews with ownership rules)
+│   └── 📜 init.js                       👉 (One-command DB reset pipeline)
 │
 ├── 📂 models/             👉 (Mongoose Schemas)
 │   ├── 💽 listing.js
