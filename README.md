@@ -132,9 +132,8 @@ WanderLust/
 │   │   ├── 🖼️ compass.svg
 │   │   ├── 🖼️ hero.avif
 │   │   ├── 🖼️ home-page.png
-│   │   ├── 🖼️ map-view.png
 │   │   ├── 🖼️ travel.avif
-│   │   └── 🖼️ user-menu.png
+│   │   └── 🖼️ mobile-view-1.jpg ... mobile-view-3.jpg
 │   │
 │   ├── 📂 css/            🎨 (Modular Styling)
 │   │   ├── 🎨 home.css
