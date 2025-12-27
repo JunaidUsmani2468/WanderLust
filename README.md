@@ -23,10 +23,10 @@ Click here to explore unique stays and start your journey! 👉 [ **[ 🌏 Wande
 | <img src="./public/assets/home-page.png" width="100%" alt="Home Page"> |
 | *Custom designed landing page with dynamic animations* |
 
-| **Interactive Maps (Leaflet)** | **User Dashboard & Menu** |
-|:---:|:---:|
-| <img src="./public/assets/map-view.png" width="100%" alt="Map View"> | <img src="./public/assets/user-menu.png" width="100%" alt="User Menu"> |
-| *Open-source map implementation using Leaflet.js* | *Dynamic user controls and clean UI* |
+| **Curated Journeys** | **Seamless Onboarding** | **Host Opportunities** |
+|:---:|:---:|:---:|
+| <img src="./public/assets/mobile-view-2.jpg" width="250" alt="Traveler View"> | <img src="./public/assets/mobile-view-1.jpg" width="250" alt="Split UI View"> | <img src="./public/assets/mobile-view-3.jpg" width="250" alt="Host View"> |
+| *Immersive dark-mode interface for travelers* | *Clean split-screen UI to guide user choice* | *Dedicated flow for earning on your terms* |
 
 <br>
 
