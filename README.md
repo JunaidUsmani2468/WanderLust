@@ -131,8 +131,8 @@ WanderLust/
 │   │   ├── 🖼️ card-1.avif ... card-5.avif
 │   │   ├── 🖼️ compass.svg
 │   │   ├── 🖼️ hero.avif
-│   │   ├── 🖼️ home-page.png
 │   │   ├── 🖼️ travel.avif
+│   │   ├── 🖼️ home-page.png
 │   │   └── 🖼️ mobile-view-1.jpg ... mobile-view-3.jpg
 │   │
 │   ├── 📂 css/            🎨 (Modular Styling)
