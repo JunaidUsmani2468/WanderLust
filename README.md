@@ -108,9 +108,9 @@ WanderLust/
 │   └── 📜 users.js
 │
 ├── 📂 init/                     👉 (Database initialization & regeneration)
-|   |
+│   │
 │   ├── 📂 advanceData/          👉 Pure seed data (NO logic)
-|   |   |
+│   │   │
 │   │   ├── 📜 listings.js
 │   │   ├── 📜 reviews.js
 │   │   └── 📜 users.js
