@@ -250,7 +250,7 @@ graph TD
 
 <br>
 
-## 🛠️ Installation & Setup
+## 🪄 Installation & Setup
 
 **Want to run this project locally? Follow these simple steps.**
 
@@ -280,10 +280,25 @@ MY_SECRET=your_session_secret
 node app.js
 ```
 
-**5.Visit the app**
+**5. Visit the app**
 ```bash
 http://localhost:8080
 ```
+
+**6. Database Regeneration**<br>
+This project uses one shared password for all seeded demo users (defined via environment variables).
+Add this to your .env file:
+```bash
+SEED_USER_PASSWORD=your_strong_dev_password
+```
+
+Then regenerate the database with demo users, listings, images, and reviews:
+
+```bash
+node init/init.js
+```
+
+> **⚠️ This command clears existing data and is intended for local development only.**
 
 <br>
 
