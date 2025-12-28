@@ -4,6 +4,8 @@ WanderLust is a hotel booking web application that allows users to easily browse
 
 This is my first major fullstack project where I handled both the frontend and backend development. It is built as a functional clone of Airbnb and is designed with a responsive layout to ensure a seamless experience on both mobile phones and desktop computers.
 
+> *⭐ If this project helped or inspired you, consider giving it a star — it really motivates me to keep building!*
+
 <br>
 
 ## 🚀 Live Demo
