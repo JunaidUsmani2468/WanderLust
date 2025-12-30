@@ -18,6 +18,15 @@ Click here to explore unique stays and start your journey! 👉 [ **[ 🌏 Wande
 
 <br>
 
+## 🎥 Video Walkthrough
+
+Watch a complete UI walkthrough of the WanderLust app, covering all pages and user flows — from browsing listings to exploring features.
+
+👉 Watch here: [LinkedIn Video Walkthrough](https://www.linkedin.com/posts/junaid-developer_wanderlust-1101daysofcode-1101daysofcode-activity-7410758790700244992-PfL7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF5FTxoBVRPL5bmPTKiVxTQqks7wkIOIOe0)
+
+<br>
+
+
 ## 📸 Screenshots
 
 | **Immersive Home Page** |
