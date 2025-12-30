@@ -18,12 +18,12 @@ Click here to explore unique stays and start your journey! 👉 [ **[ 🌏 Wande
 
 <br>
 
-## 🎬 Video Walkthrough (See WanderLust in Action!)
+## 🎬 Video Walkthrough
 
 Want a quick tour instead of clicking every page? 😄  
 This video gives a **full UI walkthrough** of WanderLust — covering all screens, user flows, and interactions from start to finish.
 
-👉 Watch it here: [**LinkedIn Video Walkthrough**](https://www.linkedin.com/posts/junaid-developer_wanderlust-1101daysofcode-1101daysofcode-activity-7410758790700244992-PfL7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF5FTxoBVRPL5bmPTKiVxTQqks7wkIOIOe0)
+Watch it here! 👉 [**LinkedIn Video Walkthrough**](https://www.linkedin.com/posts/junaid-developer_wanderlust-1101daysofcode-1101daysofcode-activity-7410758790700244992-PfL7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF5FTxoBVRPL5bmPTKiVxTQqks7wkIOIOe0)
 
 > ✨ Built to showcase the **experience**, not the code — perfect for getting the feel of the product in minutes.
 
